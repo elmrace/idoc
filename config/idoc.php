@@ -68,11 +68,11 @@ return [
     'title' => 'iDoc API Reference',
 
     'description' => 'iDoc Api secification and documentation.',
-    
+
     'version' => '',
-        
+
     'terms_of_service' => '',
-    
+
     'contact' => [
         // 'name' => 'YOUR_NAME',
         // 'email' => 'YOUR_EMAIL',
@@ -141,7 +141,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This is used to separate groups in sections in the side menu.
-    | Before you use it, make sure you add all tags to a group, since a tag that is not in a group, 
+    | Before you use it, make sure you add all tags to a group, since a tag that is not in a group,
     | will not be displayed at all!
     |
      */
@@ -171,6 +171,7 @@ return [
     'language-tabs' => [
         'bash' => 'Bash',
         'javascript' => 'Javascript',
+        'axios' => 'Axios',
         'php' => 'PHP',
     ],
 
@@ -182,7 +183,7 @@ return [
     | Here you can define the authentication and authorization schemes that your API use.
     | You just need to use the OpenAPI security definitions or simply set as null.
     |
-    | 
+    |
      */
 
     'security' => [
